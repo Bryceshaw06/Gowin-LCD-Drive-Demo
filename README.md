@@ -75,7 +75,7 @@ After programming, the LCD will immediately boot up and display a test pattern. 
 **Backlight Brightness Control (PWM):** 
 This project features logic to smoothly control screen brightness via PWM by outputting to Pin 86. However, on the Tang Nano 9K development board, the physical connection to the onboard backlight boost converter is severed by default. 
 
-**You must solder a small puddle of solder or a jumper across the `R24` pads** (which are left NC - No Connect from the factory) to enable this hardware brightness control. 
+**You must solder a jumper or zero-ohm resistor across the `R24` pads** (which are left NC - No Connect from the factory) to enable this hardware brightness control. 
 
 <img width="50%" alt="Google Chrome on 04-04-2026 at 12 44AM@2x" src="https://github.com/user-attachments/assets/0bac0166-1656-4453-ac6c-70a66ebb0c53" /> <img width="45%" alt="CleanShot on 04-04-2026 at 05 05PM@2x" src="https://github.com/user-attachments/assets/9ec9218b-8d46-48ad-8549-202c4ad5fdbd" />
 
