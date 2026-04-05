@@ -1,0 +1,24 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW1NR-9C" pn="GW1NR-LV9QN88PC6/I5">gw1nr9c-004</Device>
+    <FileList>
+        <File path="src/button_toggle.sv" type="file.verilog" enable="1"/>
+        <File path="src/gowin_rpll/gowin_rpll.v" type="file.verilog" enable="1"/>
+        <File path="src/lcd_shared.sv" type="file.verilog" enable="1"/>
+        <File path="src/pattern_selector.sv" type="file.verilog" enable="1"/>
+        <File path="src/patterns/border_pattern.sv" type="file.verilog" enable="1"/>
+        <File path="src/patterns/bounce_pattern.sv" type="file.verilog" enable="1"/>
+        <File path="src/patterns/color_cycle_pattern.sv" type="file.verilog" enable="1"/>
+        <File path="src/patterns/moving_stripes_pattern.sv" type="file.verilog" enable="1"/>
+        <File path="src/patterns/solid_pattern.sv" type="file.verilog" enable="1"/>
+        <File path="src/patterns/xor_pattern.sv" type="file.verilog" enable="1"/>
+        <File path="src/pwm_backlight.sv" type="file.verilog" enable="1"/>
+        <File path="src/spi_lcd_init.sv" type="file.verilog" enable="1"/>
+        <File path="src/top.sv" type="file.verilog" enable="1"/>
+        <File path="src/video_timings.sv" type="file.verilog" enable="1"/>
+        <File path="src/top.cst" type="file.cst" enable="1"/>
+    </FileList>
+</Project>

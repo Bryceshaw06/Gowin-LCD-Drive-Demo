@@ -1,0 +1,33 @@
+# Gowin build outputs
+/impl/**/gao/*.rpt.html
+/impl/**/gao/*.rsc.xml
+/impl/**/gao/*.log
+/impl/**/gao/*.vg
+/impl/**/pnr/*.bin
+/impl/**/pnr/*.binx
+/impl/**/pnr/*.fs
+/impl/**/pnr/*.db
+/impl/**/pnr/*.rpt.*
+/impl/**/pnr/*.html
+/impl/**/pnr/*.txt
+/impl/**/synthesize/stdout.log*
+/impl/**/temp/
+/impl/temp/
+/impl/gwsynthesis/
+/impl/pnr/
+
+# Gowin temporary/project files
+*.gprj.user
+*.xpr
+*.xise
+*.bak
+*.tmp
+*.history
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+#Bitstreams
+.fs
+*.fs
